@@ -1,0 +1,135 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    font-family:'Poppins',sans-serif;
+    background:linear-gradient(135deg,#ffdde1,#ee9ca7);
+    color:#fff;
+    text-align:center;
+    overflow-x:hidden;
+}
+
+#password-screen{
+    height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.card{
+    background:rgba(255,255,255,0.15);
+    padding:30px;
+    border-radius:20px;
+    width:90%;
+    max-width:420px;
+    backdrop-filter:blur(10px);
+    box-shadow:0 8px 25px rgba(0,0,0,.3);
+}
+
+.card h1{
+    font-family:'Great Vibes',cursive;
+    font-size:40px;
+    margin-bottom:15px;
+}
+
+.card p{
+    margin-bottom:20px;
+}
+
+input{
+    width:100%;
+    padding:12px;
+    border:none;
+    border-radius:10px;
+    font-size:18px;
+    margin-bottom:15px;
+}
+
+button{
+    padding:12px 30px;
+    border:none;
+    border-radius:30px;
+    background:#ff4f81;
+    color:white;
+    font-size:18px;
+    cursor:pointer;
+}
+
+button:hover{
+    background:#ff2f6d;
+}
+
+#error{
+    color:yellow;
+    margin-top:15px;
+}
+
+header{
+    padding:60px 20px;
+}
+
+.title{
+    font-family:'Great Vibes',cursive;
+    font-size:60px;
+}
+
+.subtitle{
+    margin-top:15px;
+    font-size:20px;
+}
+
+#countdown{
+    margin-top:30px;
+    font-size:28px;
+    font-weight:bold;
+}
+
+.letter{
+    background:rgba(255,255,255,.15);
+    width:90%;
+    max-width:800px;
+    margin:40px auto;
+    padding:30px;
+    border-radius:20px;
+    line-height:1.8;
+}
+
+.letter h2{
+    margin-bottom:20px;
+}
+
+footer{
+    padding:30px;
+    font-size:18px;
+}
+
+.heart{
+    position:fixed;
+    bottom:-20px;
+    animation:float 5s linear;
+}
+
+@keyframes float{
+    from{
+        transform:translateY(0);
+        opacity:1;
+    }
+    to{
+        transform:translateY(-100vh);
+        opacity:0;
+    }
+}
+
+@keyframes explode{
+    from{
+        transform:scale(0);
+        opacity:1;
+    }
+    to{
+        transform:scale(3);
+        opacity:0;
+    }
+}
