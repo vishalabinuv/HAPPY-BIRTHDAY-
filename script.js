@@ -16,7 +16,7 @@ function checkPassword() {
     } else {
 
         document.getElementById("error").innerHTML =
-        "❌ Wrong password. Try again ❤️";
+        "❌ Wrong password ☹️. Try again ❤️‍🩹 . IF ANY HINT NEEDED TXT ME ";
 
     }
 
